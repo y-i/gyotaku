@@ -1,0 +1,21 @@
+{
+  "name": "gyotaku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jssha": "^2.3.1",
+    "node-fetch": "^2.1.1",
+    "puppeteer": "^1.1.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
