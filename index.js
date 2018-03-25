@@ -44,7 +44,7 @@ const pc = {
         console.log(msg.args()[i]);
     }); */
 
-    const base = await page.url().match(/^https?:\/\/[^\/]+\//)[0];
+    const base = await page.url().match(/^(https?|file):\/\/[^\/]+\//)[0];
 
     await util.sleep(5 * 1000);
     await page._client.send(

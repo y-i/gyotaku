@@ -1,6 +1,6 @@
 module.exports = {
   shapeURL: (url) => {
-    if (url.substr(0, 4) !== 'http') {
+    if (url.substr(0, 4) !== 'http' && url.substr(0, 4) !== 'file') {
       url = 'http://' + url;
     }
     return url;
